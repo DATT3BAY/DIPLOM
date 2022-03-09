@@ -15,6 +15,8 @@ extension UIImageView {
             let image = UIImage.gif(name: name)
             DispatchQueue.main.async {
                 self.image = image
+            
+        
             }
         }
     }
