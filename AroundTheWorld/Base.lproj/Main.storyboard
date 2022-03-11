@@ -37,6 +37,7 @@
                     </view>
                     <connections>
                         <outlet property="gifImage" destination="Akl-ht-uLe" id="uQX-3w-zO3"/>
+                        <outlet property="videoLayer" destination="gMa-5y-RbT" id="kwk-kt-rVI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

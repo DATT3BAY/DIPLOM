@@ -7,24 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78B983C227DB2DDF00450F16 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 78B983C127DB2DDF00450F16 /* intro.mp4 */; };
 		78CE3E0827D20ABD00FDD237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0727D20ABD00FDD237 /* AppDelegate.swift */; };
 		78CE3E0A27D20ABD00FDD237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0927D20ABD00FDD237 /* SceneDelegate.swift */; };
 		78CE3E0C27D20ABD00FDD237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0B27D20ABD00FDD237 /* ViewController.swift */; };
 		78CE3E1127D20ABE00FDD237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CE3E1027D20ABE00FDD237 /* Assets.xcassets */; };
-		78CE3E1427D20ABE00FDD237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CE3E1227D20ABE00FDD237 /* LaunchScreen.storyboard */; };
 		78CE3E1E27D21C7E00FDD237 /* gif+image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E1D27D21C7E00FDD237 /* gif+image.swift */; };
 		78CE3E1F27D21D8200FDD237 /* gifka_zemli2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 78CE3E1B27D21A7F00FDD237 /* gifka_zemli2.gif */; };
 		78CE3E2027D21E1600FDD237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CE3E0D27D20ABD00FDD237 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78B983C127DB2DDF00450F16 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
 		78CE3E0427D20ABD00FDD237 /* AroundTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CE3E0727D20ABD00FDD237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CE3E0927D20ABD00FDD237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		78CE3E0B27D20ABD00FDD237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78CE3E0E27D20ABD00FDD237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78CE3E1027D20ABE00FDD237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		78CE3E1327D20ABE00FDD237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		78CE3E1527D20ABE00FDD237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78CE3E1B27D21A7F00FDD237 /* gifka_zemli2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifka_zemli2.gif; sourceTree = "<group>"; };
 		78CE3E1D27D21C7E00FDD237 /* gif+image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "gif+image.swift"; sourceTree = "<group>"; };
@@ -66,8 +66,8 @@
 				78CE3E0B27D20ABD00FDD237 /* ViewController.swift */,
 				78CE3E0D27D20ABD00FDD237 /* Main.storyboard */,
 				78CE3E1027D20ABE00FDD237 /* Assets.xcassets */,
+				78B983C127DB2DDF00450F16 /* intro.mp4 */,
 				78CE3E1B27D21A7F00FDD237 /* gifka_zemli2.gif */,
-				78CE3E1227D20ABE00FDD237 /* LaunchScreen.storyboard */,
 				78CE3E1527D20ABE00FDD237 /* Info.plist */,
 			);
 			path = AroundTheWorld;
@@ -131,8 +131,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78B983C227DB2DDF00450F16 /* intro.mp4 in Resources */,
 				78CE3E1F27D21D8200FDD237 /* gifka_zemli2.gif in Resources */,
-				78CE3E1427D20ABE00FDD237 /* LaunchScreen.storyboard in Resources */,
 				78CE3E1127D20ABE00FDD237 /* Assets.xcassets in Resources */,
 				78CE3E2027D21E1600FDD237 /* Main.storyboard in Resources */,
 			);
@@ -161,14 +161,6 @@
 				78CE3E0E27D20ABD00FDD237 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		78CE3E1227D20ABE00FDD237 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				78CE3E1327D20ABE00FDD237 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
