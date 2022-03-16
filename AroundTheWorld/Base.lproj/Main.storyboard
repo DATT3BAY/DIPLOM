@@ -15,29 +15,62 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gMa-5y-RbT">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S9Z-v8-kcY">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gifka_zemli2.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Akl-ht-uLe">
-                                        <rect key="frame" x="109" y="289" width="197" height="93"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Around the world" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wO8-y0-Y2i">
+                                        <rect key="frame" x="77" y="362" width="250" height="58.5"/>
+                                        <fontDescription key="fontDescription" name="SavoyeLetPlain" family="Savoye LET" pointSize="55"/>
+                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozq-cc-Y4N">
+                                        <rect key="frame" x="133" y="741" width="148" height="40"/>
+                                        <color key="backgroundColor" red="0.55507623643150694" green="0.76598645666438359" blue="0.5295145884068494" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="qTT-hG-UQG"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                        <state key="normal" title="Приступим!">
+                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="earth1" translatesAutoresizingMaskIntoConstraints="NO" id="xqk-T0-wwi">
+                                        <rect key="frame" x="63" y="140" width="288" height="186"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="186" id="N2F-Pl-TfH"/>
+                                            <constraint firstAttribute="width" constant="288" id="qgd-Bc-ipf"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <constraints>
+                                    <constraint firstItem="ozq-cc-Y4N" firstAttribute="centerX" secondItem="wO8-y0-Y2i" secondAttribute="centerX" constant="5" id="Ksi-T9-bvz"/>
+                                    <constraint firstItem="wO8-y0-Y2i" firstAttribute="centerX" secondItem="xqk-T0-wwi" secondAttribute="centerX" constant="-5" id="PNU-jP-Wo4"/>
+                                    <constraint firstAttribute="bottom" secondItem="ozq-cc-Y4N" secondAttribute="bottom" constant="115" id="QmL-gH-ZPU"/>
+                                    <constraint firstItem="ozq-cc-Y4N" firstAttribute="top" secondItem="wO8-y0-Y2i" secondAttribute="bottom" constant="320.5" id="W9P-BR-hfa"/>
+                                    <constraint firstItem="wO8-y0-Y2i" firstAttribute="top" secondItem="xqk-T0-wwi" secondAttribute="bottom" constant="36" id="WBE-MV-KMa"/>
+                                    <constraint firstItem="ozq-cc-Y4N" firstAttribute="leading" secondItem="S9Z-v8-kcY" secondAttribute="leadingMargin" constant="125" id="XPT-hD-mI0"/>
+                                    <constraint firstItem="xqk-T0-wwi" firstAttribute="top" secondItem="S9Z-v8-kcY" secondAttribute="top" constant="140" id="go2-LH-wUc"/>
+                                    <constraint firstItem="xqk-T0-wwi" firstAttribute="centerX" secondItem="S9Z-v8-kcY" secondAttribute="centerX" id="nQ0-me-Efv"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="ozq-cc-Y4N" secondAttribute="bottom" constant="73" id="nbc-hb-k3X"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="gMa-5y-RbT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Aeg-0B-sii"/>
-                            <constraint firstItem="gMa-5y-RbT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="axR-nd-Lzf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gMa-5y-RbT" secondAttribute="trailing" id="dWA-xc-aeB"/>
-                            <constraint firstAttribute="bottom" secondItem="gMa-5y-RbT" secondAttribute="bottom" id="j0G-XY-dkF"/>
+                            <constraint firstAttribute="bottom" secondItem="S9Z-v8-kcY" secondAttribute="bottom" id="ATb-bi-vlc"/>
+                            <constraint firstItem="S9Z-v8-kcY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ic6-Qa-bpg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S9Z-v8-kcY" secondAttribute="trailing" id="QJT-W9-SOU"/>
+                            <constraint firstItem="S9Z-v8-kcY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jAU-Du-LZ8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="gifImage" destination="Akl-ht-uLe" id="uQX-3w-zO3"/>
-                        <outlet property="videoLayer" destination="gMa-5y-RbT" id="kwk-kt-rVI"/>
+                        <outlet property="btn" destination="ozq-cc-Y4N" id="35C-Xg-DrC"/>
+                        <outlet property="img" destination="xqk-T0-wwi" id="enq-U3-xET"/>
+                        <outlet property="lbl" destination="wO8-y0-Y2i" id="8L7-HB-QNP"/>
+                        <outlet property="videoLayer" destination="S9Z-v8-kcY" id="vSl-06-KGX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -46,6 +79,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="gifka_zemli2.gif" width="600" height="400"/>
+        <image name="earth1" width="799" height="785"/>
     </resources>
 </document>

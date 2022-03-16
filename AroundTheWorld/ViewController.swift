@@ -8,23 +8,23 @@
 
 import UIKit
 import AVFoundation
+
 class ViewController: UIViewController {
 
-    @IBOutlet weak var gifImage: UIImageView!
+    @IBOutlet weak var img: UIImageView!
+    @IBOutlet weak var lbl: UILabel!
+    @IBOutlet weak var btn: UIView!
     @IBOutlet weak var videoLayer: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        
-        gifImage.loadGif(name: "gifka_zemli2")
         playVideo()
+        btn.layer.cornerRadius = btn.bounds.height / 2
     }
-
+    
     func playVideo() {
-        guard let path = Bundle.main.path(forResource: "intro", ofType: "mp4")
-            else {
-                return
+        guard let path = Bundle.main.path(forResource: "intr0", ofType: "mp4") else {
+            return
         }
         let player = AVPlayer(url: URL(fileURLWithPath: path))
         let playerLayer = AVPlayerLayer(player: player)
@@ -33,8 +33,10 @@ class ViewController: UIViewController {
         self.videoLayer.layer.addSublayer(playerLayer)
         player.play()
         
-        videoLayer.bringSubviewToFront(gifImage)
+     videoLayer.bringSubviewToFront(img)
+          videoLayer.bringSubviewToFront(lbl)
+           videoLayer.bringSubviewToFront(btn)
+        
     }
-
+    
 }
-
