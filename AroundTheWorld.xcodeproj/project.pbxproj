@@ -11,11 +11,11 @@
 		7801DE4327E20A560094BF9A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7801DE4227E20A560094BF9A /* Media.xcassets */; };
 		7801FA7727E8677100BE0030 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801FA7627E8677100BE0030 /* SecondViewController.swift */; };
 		7801FAA427E8A99800BE0030 /* travelMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801FAA327E8A99800BE0030 /* travelMenu.swift */; };
+		78168BA527F199F200C425F7 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 78168BA427F199F200C425F7 /* intro.mp4 */; };
 		78CE3E0827D20ABD00FDD237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0727D20ABD00FDD237 /* AppDelegate.swift */; };
 		78CE3E0A27D20ABD00FDD237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0927D20ABD00FDD237 /* SceneDelegate.swift */; };
 		78CE3E0C27D20ABD00FDD237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0B27D20ABD00FDD237 /* ViewController.swift */; };
 		78CE3E2027D21E1600FDD237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CE3E0D27D20ABD00FDD237 /* Main.storyboard */; };
-		78FF1A4227E4961000755F87 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 78FF1A4127E4961000755F87 /* intro.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,13 +23,13 @@
 		7801DE4227E20A560094BF9A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		7801FA7627E8677100BE0030 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		7801FAA327E8A99800BE0030 /* travelMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelMenu.swift; sourceTree = "<group>"; };
+		78168BA427F199F200C425F7 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = intro.mp4; path = ../../../Desktop/intro.mp4; sourceTree = "<group>"; };
 		78CE3E0427D20ABD00FDD237 /* AroundTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CE3E0727D20ABD00FDD237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CE3E0927D20ABD00FDD237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		78CE3E0B27D20ABD00FDD237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78CE3E0E27D20ABD00FDD237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		78CE3E1527D20ABE00FDD237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78FF1A4127E4961000755F87 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				7801DE4227E20A560094BF9A /* Media.xcassets */,
-				78FF1A4127E4961000755F87 /* intro.mp4 */,
+				78168BA427F199F200C425F7 /* intro.mp4 */,
 			);
 			path = MULTI;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78168BA527F199F200C425F7 /* intro.mp4 in Resources */,
 				78CE3E2027D21E1600FDD237 /* Main.storyboard in Resources */,
 				7801DE4327E20A560094BF9A /* Media.xcassets in Resources */,
-				78FF1A4227E4961000755F87 /* intro.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -19,19 +19,19 @@ class SwiftUIViewHostingController2: UIHostingController<travelMenu> {
 }
 
 struct travelMenu: View {
-    @StateObject var placeFinder = PlaceFinder()
+   // @StateObject var placeFinder = PlaceFinder()
     var body: some  View{
-            ZStack(alignment: .bottom) {
-            // Map view with markers of places
-            Map(coordinateRegion: $placeFinder.region, annotationItems: placeFinder.spots) { spot in
-                MapAnnotation(coordinate: spot.location, anchorPoint: CGPoint(x: 0.5, y: 0.5)) {
-                    MapMarker(placeName: spot.name)
+        ZStack() { Button  ("fgdg"){}
+//            // Map view with markers of places
+//            Map(coordinateRegion: $placeFinder.region, annotationItems: placeFinder.spots) { spot in
+//                MapAnnotation(coordinate: spot.location, anchorPoint: CGPoint(x: 0.5, y: 0.5)) {
+//                    MapMarker(placeName: spot.name)
                 }
             }
-            .ignoresSafeArea()
+         //   .ignoresSafeArea()
             
         }
-    }
+    
     
 
 
@@ -129,4 +129,4 @@ class PlaceFinder: ObservableObject {
         let previousPrice: String
     }
 }
-}
+
