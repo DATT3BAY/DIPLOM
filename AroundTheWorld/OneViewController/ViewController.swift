@@ -62,7 +62,7 @@ class ViewController: UIViewController {
     
     
     func createPlayer ()  {
-        guard let url = Bundle.main.url(forResource: "intro", withExtension: "mp4") else {
+        guard let url = Bundle.main.url(forResource: "INTRO", withExtension: "mp4") else {
             print("url не найден")
             return
         }
