@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7801DE3D27E1D7420094BF9A /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801DE3C27E1D7420094BF9A /* PulseAnimation.swift */; };
+		7801DE4327E20A560094BF9A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7801DE4227E20A560094BF9A /* Media.xcassets */; };
+		7801FA7727E8677100BE0030 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801FA7627E8677100BE0030 /* SecondViewController.swift */; };
+		7801FAA427E8A99800BE0030 /* travelMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7801FAA327E8A99800BE0030 /* travelMenu.swift */; };
 		78CE3E0827D20ABD00FDD237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0727D20ABD00FDD237 /* AppDelegate.swift */; };
 		78CE3E0A27D20ABD00FDD237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0927D20ABD00FDD237 /* SceneDelegate.swift */; };
 		78CE3E0C27D20ABD00FDD237 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CE3E0B27D20ABD00FDD237 /* ViewController.swift */; };
-		78CE3E1127D20ABE00FDD237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78CE3E1027D20ABE00FDD237 /* Assets.xcassets */; };
 		78CE3E2027D21E1600FDD237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78CE3E0D27D20ABD00FDD237 /* Main.storyboard */; };
-		78FB868027DF529B00387EB3 /* intr0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 78FB867F27DF529B00387EB3 /* intr0.mp4 */; };
+		78FF1A4227E4961000755F87 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 78FF1A4127E4961000755F87 /* intro.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7801DE3C27E1D7420094BF9A /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		7801DE4227E20A560094BF9A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		7801FA7627E8677100BE0030 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7801FAA327E8A99800BE0030 /* travelMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = travelMenu.swift; sourceTree = "<group>"; };
 		78CE3E0427D20ABD00FDD237 /* AroundTheWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AroundTheWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CE3E0727D20ABD00FDD237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CE3E0927D20ABD00FDD237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		78CE3E0B27D20ABD00FDD237 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		78CE3E0E27D20ABD00FDD237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		78CE3E1027D20ABE00FDD237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78CE3E1527D20ABE00FDD237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78FB867F27DF529B00387EB3 /* intr0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intr0.mp4; sourceTree = "<group>"; };
+		78FF1A4127E4961000755F87 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,11 +43,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7803E1DC27EEED8000240470 /* OneViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7801DE3C27E1D7420094BF9A /* PulseAnimation.swift */,
+				78CE3E0B27D20ABD00FDD237 /* ViewController.swift */,
+			);
+			path = OneViewController;
+			sourceTree = "<group>";
+		};
+		7803E1DD27EEEDD100240470 /* SecondViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7801FA7627E8677100BE0030 /* SecondViewController.swift */,
+			);
+			path = SecondViewController;
+			sourceTree = "<group>";
+		};
 		78CE3DFB27D20ABD00FDD237 = {
 			isa = PBXGroup;
 			children = (
 				78CE3E0627D20ABD00FDD237 /* AroundTheWorld */,
-				78CE3E0527D20ABD00FDD237 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +73,7 @@
 				78CE3E0427D20ABD00FDD237 /* AroundTheWorld.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		78CE3E0627D20ABD00FDD237 /* AroundTheWorld */ = {
@@ -58,13 +81,24 @@
 			children = (
 				78CE3E0727D20ABD00FDD237 /* AppDelegate.swift */,
 				78CE3E0927D20ABD00FDD237 /* SceneDelegate.swift */,
-				78CE3E0B27D20ABD00FDD237 /* ViewController.swift */,
 				78CE3E0D27D20ABD00FDD237 /* Main.storyboard */,
-				78CE3E1027D20ABE00FDD237 /* Assets.xcassets */,
-				78FB867F27DF529B00387EB3 /* intr0.mp4 */,
+				78CE3E0527D20ABD00FDD237 /* Products */,
+				78FF1A3227E4691C00755F87 /* MULTI */,
+				7803E1DC27EEED8000240470 /* OneViewController */,
+				7803E1DD27EEEDD100240470 /* SecondViewController */,
 				78CE3E1527D20ABE00FDD237 /* Info.plist */,
+				7801FAA327E8A99800BE0030 /* travelMenu.swift */,
 			);
 			path = AroundTheWorld;
+			sourceTree = "<group>";
+		};
+		78FF1A3227E4691C00755F87 /* MULTI */ = {
+			isa = PBXGroup;
+			children = (
+				7801DE4227E20A560094BF9A /* Media.xcassets */,
+				78FF1A4127E4961000755F87 /* intro.mp4 */,
+			);
+			path = MULTI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +159,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78CE3E1127D20ABE00FDD237 /* Assets.xcassets in Resources */,
 				78CE3E2027D21E1600FDD237 /* Main.storyboard in Resources */,
-				78FB868027DF529B00387EB3 /* intr0.mp4 in Resources */,
+				7801DE4327E20A560094BF9A /* Media.xcassets in Resources */,
+				78FF1A4227E4961000755F87 /* intro.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +174,9 @@
 			files = (
 				78CE3E0C27D20ABD00FDD237 /* ViewController.swift in Sources */,
 				78CE3E0827D20ABD00FDD237 /* AppDelegate.swift in Sources */,
+				7801DE3D27E1D7420094BF9A /* PulseAnimation.swift in Sources */,
+				7801FAA427E8A99800BE0030 /* travelMenu.swift in Sources */,
+				7801FA7727E8677100BE0030 /* SecondViewController.swift in Sources */,
 				78CE3E0A27D20ABD00FDD237 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +312,6 @@
 		78CE3E1927D20ABE00FDD237 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AroundTheWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,7 +328,6 @@
 		78CE3E1A27D20ABE00FDD237 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = AroundTheWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
