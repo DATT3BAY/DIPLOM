@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CYg-5O-DCM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CYg-5O-DCM">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,12 +23,12 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Around the world" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wO8-y0-Y2i">
                                         <rect key="frame" x="0.0" y="432" width="414" height="67"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="43"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                                         <nil key="highlightedColor"/>
                                         <color key="shadowColor" red="1" green="0.57179646407859952" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <size key="shadowOffset" width="2" height="0.0"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozq-cc-Y4N">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozq-cc-Y4N">
                                         <rect key="frame" x="134" y="743" width="147" height="40"/>
                                         <color key="backgroundColor" red="0.76013076305389404" green="0.62042501180160869" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
@@ -34,7 +36,7 @@
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                         <state key="normal" title=" Приступим!">
-                                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <color key="titleColor" systemColor="darkTextColor"/>
                                         </state>
                                         <connections>
                                             <action selector="onClickBtn:" destination="C5t-Eo-wXh" eventType="touchUpInside" id="u5b-nc-A7r"/>
@@ -52,12 +54,12 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Путешествия для всех" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uf0-nz-FcU">
                                         <rect key="frame" x="0.0" y="595" width="414" height="34"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                                         <nil key="highlightedColor"/>
-                                        <color key="shadowColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="shadowColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" systemColor="darkTextColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailingMargin" secondItem="uf0-nz-FcU" secondAttribute="trailing" constant="-8" id="HRf-UM-3Ct"/>
                                     <constraint firstItem="ozq-cc-Y4N" firstAttribute="centerX" secondItem="wO8-y0-Y2i" secondAttribute="centerX" constant="0.25" id="Ksi-T9-bvz"/>
@@ -77,14 +79,14 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="S9Z-v8-kcY" secondAttribute="bottom" id="ATb-bi-vlc"/>
                             <constraint firstItem="S9Z-v8-kcY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ic6-Qa-bpg"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="S9Z-v8-kcY" secondAttribute="trailing" id="QJT-W9-SOU"/>
                             <constraint firstItem="S9Z-v8-kcY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="jAU-Du-LZ8"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="KqM-ny-zGe"/>
                     <connections>
@@ -98,7 +100,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <exit id="C5t-Eo-wXh" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="3059" y="120"/>
+            <point key="canvasLocation" x="2525" y="120"/>
         </scene>
         <!--SwiftUI View Hosting Controller-->
         <scene sceneID="FjF-qj-OnJ">
@@ -108,7 +110,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Hf-av-V4m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3939" y="120"/>
+            <point key="canvasLocation" x="3891" y="120"/>
+        </scene>
+        <!--SwiftUI View Hosting Controller3-->
+        <scene sceneID="DOR-zy-1Vd">
+            <objects>
+                <viewController id="OZN-hz-7af" customClass="SwiftUIViewHostingController3" customModule="AroundTheWorld" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hK1-y4-dLw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="heW-yJ-zbW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0qg-78-fG7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3428" y="-528"/>
+        </scene>
+        <!--SwiftUI View Hosting Controller4-->
+        <scene sceneID="SaN-92-m6z">
+            <objects>
+                <viewController id="BQJ-vW-Rk8" customClass="SwiftUIViewHostingController4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xsQ-7Q-1VU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dCK-Os-IeX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J76-bv-gdy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4200" y="-528"/>
         </scene>
         <!--SwiftUI View Hosting Controller2-->
         <scene sceneID="lIF-M9-66M">
@@ -117,13 +149,29 @@
                     <view key="view" contentMode="scaleToFill" id="cgW-RA-L1k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="a05-jH-TjB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shz-ge-ezk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4784" y="-432"/>
+            <point key="canvasLocation" x="4928" y="-216"/>
+        </scene>
+        <!--Map360-->
+        <scene sceneID="Xcf-qH-sZa">
+            <objects>
+                <viewController id="62F-1K-sp0" customClass="map360" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QpC-tc-X5g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="7QU-vq-pbQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="rfg-iB-TFM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oDC-az-Jdu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7076.811594202899" y="-395.08928571428572"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4GF-aH-mm2">
@@ -141,10 +189,22 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUj-nS-EtT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2300" y="119.86607142857142"/>
+            <point key="canvasLocation" x="1681" y="120"/>
         </scene>
     </scenes>
     <resources>
         <image name="earth1" width="799" height="785"/>
+        <systemColor name="darkTextColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondarySystemGroupedBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
