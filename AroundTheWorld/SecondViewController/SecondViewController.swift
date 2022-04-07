@@ -61,7 +61,9 @@ struct SecondViewController: View {
                         
                         HStack{
                             VStack{
+                               
                                 Button(action: {}){
+                                    NavigationLink(destination: Mountain()){
                                     Image(systemName: "triangle")
                                         .foregroundColor(.white)
                                         .padding(.all, 18)
@@ -69,6 +71,7 @@ struct SecondViewController: View {
                                         .cornerRadius(12)
                                         .shadow(radius: 2)
                                     
+                                }
                                 }
                                 Text("Горы")
                                     .font(.footnote)
@@ -80,6 +83,7 @@ struct SecondViewController: View {
                             
                             VStack{
                                 Button(action: {}){
+                                    NavigationLink(destination: Lake()){
                                     Image(systemName: "circle.bottomthird.split")
                                         .foregroundColor(.white)
                                         .padding(.all, 18)
@@ -87,6 +91,7 @@ struct SecondViewController: View {
                                         .cornerRadius(12)
                                         .shadow(radius: 2)
                                     
+                                }
                                 }
                                 Text("Озера")
                                     .font(.footnote)
